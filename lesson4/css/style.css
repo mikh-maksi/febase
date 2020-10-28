@@ -1,0 +1,41 @@
+.p1{
+    font-size: 18px;
+}
+.p1:hover{
+    /*font-size: 24px;*/
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.border:active{
+
+}
+
+.firstletter::first-letter{
+    font-size: 48px;
+    color: red;
+}
+.firstletter::first-line{
+    text-decoration: underline;
+}
+.selection::selection{
+    color:red;
+    background: blueviolet;
+}
+body{
+    background: #005cff;
+    color: white;
+}
+
+.quote::before{
+    content: '"';
+    font-size:26px;
+}
+.quote::after{
+    content: '"';
+    font-size:26px;
+}
